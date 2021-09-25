@@ -1,0 +1,49 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@sendgrid/mail": "^6.5.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "cryptr": "^6.0.1",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.17.0",
+    "express-toastr": "^2.0.2",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "json2csv": "^5.0.1",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.1",
+    "msexcel-builder": "0.0.2",
+    "multiparty": "^4.2.1",
+    "mysql2": "^2.1.0",
+    "node-xlsx": "^0.15.0",
+    "nodemailer": "^6.4.2",
+    "nodetable": "^1.0.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pdfcrowd": "4.12.0",
+    "html-pdf": "^2.2.0",
+    "promise-sequential": "1.1.1",
+    "rand-token": "^0.4.0",
+    "sequelize": "^6.3.3",
+    "stripe": "8.63.0",
+    "underscore": "^1.10.2",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
